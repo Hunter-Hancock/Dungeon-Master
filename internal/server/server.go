@@ -16,6 +16,7 @@ func NewServer() *http.Server {
 	if err != nil {
 		panic(err)
 	}
+
 	newServer := &Server{
 		db: db,
 	}
